@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de código</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <img src="assets/icon.webp" alt="imagen" > <h1>Encriptador de Texto</h1>
+    </header>
+    <div class="container">
+    <div class="user">
+        <div class="user__userInput">
+            <textarea class="container__userInput_usertxt" name="usertxt" id="usertxt" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+        <div class="user__conditions">
+            <div class="user__conditions__img"> <img src="assets/warning.svg" alt="Imagen"></div> <p> Solo letras minúsculuas y sin acentos</p>
+        </div>
+        <div class="user__buttons">
+            <button class="user_buttons1" onclick="Encrypt()">Encriptar</button>
+            <button class="user_buttons2" onclick="Decrypt()">Desencriptar</button>
+        </div>
+    </div>
+    <div class="result">
+        <div id="result__im" class="result__img">
+            <img id="result__img" src="assets/a.webp" alt="Imagen">
+        </div>
+        <div class="result__text">
+            <h2 id ="result_title"> Ningún mensaje fue encontrado</h2>
+            <p id="resultText">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div id="result__button">
+            <button class="user_buttons3" onclick="CopyText()">Copiar</button>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <p>Programado por Juan Reyes Villarreyes </p>
+        <div class="footer-links">
+            <a href="https://github.com/Jhonrv1998" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-reyes-villarreyes-a90808293/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
