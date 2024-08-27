@@ -72,7 +72,7 @@ function styleSuccess(message,text){
 }
 function styleError(message){
     statusdivI("result__im","block");
-    AsignImageElement("result__img","../assets/warning.svg");
+    AsignImageElement("result__img","assets/warning.svg");
     AsignTextElement("result_title","Error");
     AsignTextElement("resultText",message);
 }
