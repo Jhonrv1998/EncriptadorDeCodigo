@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-Esta aplicación web está diseñada para transformar texto ingresado en su versión encriptada o desencriptada, según sea necesario.
+Esta aplicación web está diseñada para convertir el texto ingresado en su versión encriptada o desencriptada, según la opción seleccionada. Ofrece una herramienta sencilla y eficiente para asegurar la privacidad de la información textual.
 ## 📜 Descripción
 
 El encriptador utiliza un conjunto de reglas específicas para sustituir las vocales en el texto por claves predefinidas (conjuntos de letras). Este proceso permite encriptar o desencriptar el contenido de manera efectiva. Además, la aplicación incluye la opción de "copiar" el texto resultante, facilitando su reutilización en otros contextos.
